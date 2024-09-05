@@ -1,0 +1,95 @@
+.App {
+  width: 70vw;
+  height: 90vh;
+  user-select: none;
+}
+.SearchAndSortingBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.btn {
+  width: 15%;
+  height: 80%;
+  border: 2px solid rgb(89, 88, 88);
+  color: rgb(243, 236, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#Search {
+  width: 65%;
+  height: 80%;
+  border: 2px solid rgb(89, 88, 88);
+  color: rgb(243, 236, 236);
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(33, 32, 32);
+  padding: 10px;
+}
+#Search::placeholder {
+  color: rgb(243, 236, 236);
+  font-size: 16px;
+  font-weight: 500;
+}
+#Table {
+  width: 100%;
+  height: auto;
+  color: rgb(243, 236, 236);
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(33, 32, 32);
+  padding: 10px;
+  border-collapse: collapse;
+}
+#container-main {
+  width: 100%;
+  height: 100%;
+}
+.row {
+  width: 100%;
+  height: 50px;
+}
+.row > td {
+  width: auto;
+  height: 50px;
+  text-align: right;
+  border-bottom: 2px solid rgb(243, 236, 236);
+}
+.logo_name {
+  display: flex;
+  min-width: 20%;
+  min-height: 101.5%;
+  text-align: left;
+}
+.logo {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo > img {
+  width: 30px;
+  height: 30px;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: auto;
+  margin-left: 5px;
+}
+.symbol {
+  text-align: left !important;
+}
+tbody {
+  width: auto;
+}
